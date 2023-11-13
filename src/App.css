@@ -1,0 +1,23 @@
+.div__app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.div__title {
+    width: 80%;
+}
+
+.form_btn {
+    background-color: #0066cc;
+    color: white;
+}
+
+@media (max-width:680px) {
+    .div__title {
+        width: 51%;
+        
+    }
+}
+
